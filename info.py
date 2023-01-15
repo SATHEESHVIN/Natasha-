@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Hari')
-API_ID = int(environ.get('API_ID', '10261086'))
-API_HASH = environ.get('API_HASH', '9195dc0591fbdb22b5711bcd1f437dab')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5732047959:AAF7Yr4JT1Dns6xPNtppJrwjQ0f0bi6aGhE")
+API_ID = int(environ.get('API_ID', '9747098'))
+API_HASH = environ.get('API_HASH', '15384775587d976eccc8b367e92a96a3')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5839160503:AAEOeXkUGK3PWlzoAtYsNkC-jkXdI7FIKS4")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -22,14 +22,14 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/9eb19affc26e0f93805d0.jpg https://te.legra.ph/file/5711825703d7757d76569.jpg https://te.legra.ph/file/c6d023761457984cdce1e.jpg https://te.legra.ph/file/cfb1682b24ce7ecce1ce2.jpg https://te.legra.ph/file/231481e6ca18ce938d2bd.jpg https://te.legra.ph/file/b2798a19a83020dd106e4.jpg https://te.legra.ph/file/0211f5764945f712ada82.jpg https://te.legra.ph/file/61ecf93fdab7547ad50b2.jpg https://te.legra.ph/file/0a7420b9a4b23e6ad4a0e.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/cb9ad6c7df48543a5502b.jpg https://te.legra.ph/file/87ebb5017f89b70f480e0.jpg https://te.legra.ph/file/7c4e7d3c4ba30c5cc14b0.jpg https://te.legra.ph/file/485d52d2fa5424f91cb50.jpg https://te.legra.ph/file/bd4c846e3826d430bd7b5.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001652623781').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1287471711').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001876787699').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001881205059')
+auth_channel = environ.get('AUTH_CHANNEL', '0')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -40,8 +40,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "hulk")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001523492120'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyPrincessSupport')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001843142830'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'hari')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
