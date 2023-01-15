@@ -1,8 +1,8 @@
 {
-    "name": "LazyPrincessV2",
-    "description": "LazyPrincess with Url Shortner",
+    "name": "SKY-FILTER-HD",
+    "description": "SKY-FILTER-HD with Url Shortner",
     "stack": "container",
-    "logo": "https://telegra.ph/file/68d28011b2bc356b5db01.png",
+    "logo": "https://te.legra.ph/file/b4eeb216aeeb8fef74e3c.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/LazyDeveloperr",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincessV2",
+    "website": "https://github.com/Vinarasan55/SKY-FILTER-HD",
+    "repository": "https://github.com/Vinarasan55/SKY-FILTER-HD",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
