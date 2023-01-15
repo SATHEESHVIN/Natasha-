@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🔰ᴜᴩᴅᴀᴛᴇꜱ🔰', url='https://t.me/+dyvRr3LZxlI4ZjVl')
             ],
             [
-                InlineKeyboardButton('🍁ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🍁', url=f"https://t.me/TAMIL_FLIMS_HD"),
+                InlineKeyboardButton('🍁ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🍁', url=f"https://t.me/Sky_LinkZ"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,13 +47,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 1', url='https://telegram.dog/+ei9cg_OsVo81YjQ1'),
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 2', url='https://t.me/+WnZsXs_fNoM2M2U1')
             ],[
             InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/Sky_LinkZ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -95,13 +95,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 1', url='https://telegram.dog/+ei9cg_OsVo81YjQ1'),
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 2', url='https://t.me/+WnZsXs_fNoM2M2U1')
             ],[
             InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/Sky_LinkZ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
