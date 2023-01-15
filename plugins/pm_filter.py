@@ -109,9 +109,9 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+sQpwBtnG3FEzODE1"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TAMIL_FLIMS_HD"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+lp5mOR6wSMIyMzY1")
+            InlineKeyboardButton("ɢʀᴏᴜᴩ 1", url="https://telegram.dog/+ei9cg_OsVo81YjQ1"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Sky_LinkZ"),
+            InlineKeyboardButton("ɢʀᴏᴜᴩ 2", url="https://t.me/+WnZsXs_fNoM2M2U1")
         ]
     )
 
@@ -125,7 +125,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/2"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/10"),]
 )
     btn.append(
     [InlineKeyboardButton("😬 ʟɪɴᴋ ᴇʀʀᴏʀ ᴩʀᴏʙʟᴇᴍ 😬", url="https://t.me/linkdownlos/4"),]
@@ -447,13 +447,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/FLIMSGROUP'),
-            InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+dyvRr3LZxlI4ZjVl')
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 1', url='https://telegram.dog/+ei9cg_OsVo81YjQ1'),
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ 2', url='https://t.me/+WnZsXs_fNoM2M2U1')
         ], [
             InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/TAMIL_FLIMS_HD')
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/Sky_LinkZ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -706,14 +706,14 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+sQpwBtnG3FEzODE1"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TAMIL_FLIMS_HD"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+lp5mOR6wSMIyMzY1")
+            InlineKeyboardButton("ɢʀᴏᴜᴩ 1", url="https://telegram.dog/+ei9cg_OsVo81YjQ1"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Sky_LinkZ"),
+            InlineKeyboardButton("ɢʀᴏᴜᴩ 2", url="https://t.me/+WnZsXs_fNoM2M2U1")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/2"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/linkdownlos/10"),]
 )
     btn.append(
     [InlineKeyboardButton("😬 ʟɪɴᴋ ᴇʀʀᴏʀ ᴩʀᴏʙʟᴇᴍ 😬", url="https://t.me/linkdownlos/4"),]
@@ -766,7 +766,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 - 𝚃𝙰𝙼𝙸𝙻 𝙵𝙻𝙸𝙼𝚂 𝙷𝙳"
+        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 - 𝚂𝙺𝚈 𝙼𝙾𝚅𝙸𝙴𝚂 𝙷𝙳"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
