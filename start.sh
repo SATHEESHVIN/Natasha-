@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/DRAGON-PRO/FLIMS-HD-2.git /FLIMS-HD-2
+  git clone https://github.com/Vinarasan55/SKY-FILTER-HD.git /SKY-FILTER-HD
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /FLIMS-HD-2
+  git clone $UPSTREAM_REPO /SKY-FILTER-HD
 fi
-cd /FLIMS-HD-2
+cd /SKY-FILTER-HD
 pip3 install -U -r requirements.txt
 echo "🍃Starting Bot🍃...."
 python3 bot.py
